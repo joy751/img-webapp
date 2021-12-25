@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    /* position: fixed; */
+    background-color: rgb(255, 255, 255);
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 1rem 20rem;
+    margin: auto;
+}
+
+.nav ul li a {
+    padding: 3rem;
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.banner img {
+    width: 100%;
+    height: 28rem;
+}
+
+.h {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+}
+
+.container {
+    padding-left: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images {
+    height: 20rem;
+    width: 20rem;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.images img {
+    width: 20rem;
+    height: 17rem;
+}
+
+.images p {
+    text-align: center;
+}
+
+.image-detail img {
+    height: 25rem;
+    width: 100%;
+}
+
+.text {
+    text-transform: capitalize;
+    padding: 50px;
+    text-align: center;
+    text-align: justify;
+}
+
+form h3 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.input-form {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 20rem;
+    text-align: center;
+    margin: auto;
+    border: 1px solid rgb(167, 167, 167);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+}
+
+.input-form .int {
+    border-top: 0;
+    border-left: 0;
+    border-radius: 0;
+    padding-top: 1rem;
+    margin: 0.5rem;
+}
+
+.input-form .int input {
+    font-weight: 600;
+    height: 3rem;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(216, 214, 214);
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn input {
+    background-color: rgb(44, 116, 211);
+    height: 3rem;
+    width: 6rem;
+    border-radius: 1rem;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    box-shadow: 0 4px 5px rgb(168, 167, 167);
+    cursor: pointer;
+}
+
+.about h3 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.about p {
+    text-align: justify;
+    margin: 3rem;
+}
+
+footer p {
+    margin: 2rem;
+    text-align: center;
+}
